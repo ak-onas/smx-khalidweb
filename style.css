@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  border: thin solid black;
+}
+
+.clearfix { clear: both;}
+
+r: thin solid black;
+}
+
+#column-right {
+  width: 100%;
+  float: right;
+}
+
+#column-left {
+  width: 50%;
+  float: left;
+}
+
+.vertical-menu {
+  width: 50px;
+  /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  /* Grey background color */
+  color: black;
+  /* Black text color */
+  display: block;
+  /* Make the links appear below each other */
+  padding: 12px;
+  /* Add some padding */
+  text-decoration: none;
+  /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+  /* Dark grey background <a href=""><img src="http://icons.iconarchive.com/icons/icons8/android/512/Social-Networks-Facebook-icon.png"></a>on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+#contenido {
+  text-align: center;
+}
+
+#footer {
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+  background-color: red;
+}
+
+#column-right {
+  width: 100%;
+  float: right;
+}
+
+#column-left {
+  width: 50%;
+  float: left;
+}
+
+.vertical-menu {
+  width: 50px;
+  /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  /* Grey background color */
+  color: black;
+  /* Black text color */
+  display: block;
+  /* Make the links appear below each other */
+  padding: 12px;
+  /* Add some padding */
+  text-decoration: none;
+  /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+  /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+#contenido {
+  text-align: center;
+}
+
+#html {
+  min-height: 100%;
+  position: relative;
+}
+
+#body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+#footer {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: grey;
+}
+
+
+body {
+  margin: 0;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  #111 padding: 0;
+  overflow: hidden;
+  background-color: #0000FF;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #FF0000;
+}
+
+ul.topnav li a.active {
+  background-color: #4CAF50;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 210px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
