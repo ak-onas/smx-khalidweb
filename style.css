@@ -6,7 +6,9 @@ div {
   border: thin solid black;
 }
 
-.clearfix { clear: both;}
+.clearfix {
+  clear: both;
+}
 
 r: thin solid black;
 }
@@ -122,6 +124,7 @@ r: thin solid black;
   height: 200px;
   background-color: grey;
 }
+
 #browser {
   column-right
 }
@@ -163,8 +166,7 @@ ul.topnav li.right {
 }
 
 @media screen and (max-width: 210px) {
-  ul.topnav li.right,
-  ul.topnav li {
+  ul.topnav li.right, ul.topnav li {
     float: none;
   }
 }
