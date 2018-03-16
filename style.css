@@ -2,15 +2,16 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 div {
-  border: thin solid black;
+
 }
 
 .clearfix {
   clear: both;
-}
-
-r: thin solid black;
 }
 
 #column-right {
@@ -48,7 +49,32 @@ r: thin solid black;
 
 .vertical-menu a.active {
   background-color: #4CAF50;
-  /* Add a green color to the "active/current" link */
+  /* Add a gr.content-inner {
+    line-height: normal;
+}
+body #content {
+    font-size: 13px;
+    line-height: inherit;
+}
+body #content {
+    font-size: 13px;
+    line-height: inherit;
+}
+#content {
+    text-align: left;
+}
+html body {
+    text-align: left;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+body {
+    font-family: Helvetica,Arial,Sans Serif;
+}een color to the "active/current" link */
   color: white;
 }
 
@@ -56,21 +82,53 @@ r: thin solid black;
   text-align: center;
 }
 
-#footer {
+footer {
   margin-top: 50px;
   width: 100%;
   height: 200px;
   background-color: red;
 }
 
-#column-right {
-  width: 100%;
+#content {
+width: 100%;
+div.content-inner {
+    line-height: normal;
+}
+body #content {
+    font-size: 13px;
+    line-height: inherit;
+}
+body #content {
+    font-size: 13px;
+    line-height: inherit;
+}
+#content {
+    text-align: left;
+}
+html body {
+    text-align: left;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+body {
+    font-family: Helvetica,Arial,Sans Serif;
+}
+}
+
+.buscador { float: right; }
+
+.column-right {
+  width: 60%;
   float: right;
   background: grey;
 }
 
-#column-left {
-  width: 50%;
+.column-left {
+  width: 40%;
   float: left;
 }
 
@@ -83,11 +141,36 @@ r: thin solid black;
   background-color: #eee;
   /* Grey background color */
   color: black;
-  /* Black text color */
+  /* Black tdivext color */
   display: block;
-  /* Make the links appear below each other */
+  /* Make the.content-inner {
+    line-height: normal;
+}
+body #content {
+    font-size: 13px;
+    line-height: inherit;
+}
+body #content {
+    font-size: 13px;
+    line-height: inherit;
+}
+#content {
+    text-align: left;
+}
+html body {
+    text-align: left;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+body {
+    font-family: Helvetica,Arial,Sans Serif;
+} links appear below each other */
   padding: 12px;
-  /* Add some padding */
+  /* Add somdive padding */
   text-decoration: none;
   /* Remove underline from links */
 }
@@ -110,6 +193,31 @@ r: thin solid black;
 #html {
   min-height: 100%;
   position: relative;
+}.content-inner {
+    line-height: normal;
+}
+body #content {
+    font-size: 13px;
+    line-height: inherit;
+}
+body #content {
+    font-size: 13px;
+    line-height: inherit;
+}
+#content {
+    text-align: left;
+}
+html body {
+    text-align: left;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+body {
+    font-family: Helvetica,Arial,Sans Serif;
 }
 
 #body {
@@ -117,7 +225,7 @@ r: thin solid black;
   margin-bottom: 40px;
 }
 
-#footer {
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -129,9 +237,6 @@ r: thin solid black;
   column-right
 }
 
-body {
-  margin: 0;
-}
 
 ul.topnav {
   list-style-type: none;
